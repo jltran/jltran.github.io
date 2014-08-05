@@ -12,7 +12,7 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
-THEME = "notmyidea"
+THEME = "simple"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
