@@ -6,22 +6,25 @@
 	{% block index_header %}
 	{% endblock %}
 	<!-- Iterate through the articles in the page -->
-	<section id="articles" class="span12">
 	{% for article in (articles_page.object_list if articles_page else articles) %}
+		{% if loop.first and not articles_page.has_previous() and not category and not tag%}
+		<p>
+		Hello and Welcome to {{ SITENAME }} - A Blog by {{ AUTHOR }}. 
+		<br/><br/>
+		Here you will find the lastests posts, for additional information 
+		see the navigation bar above.
+		</p>
+		<hr />
+		{% endif %}
 		<div class="article">
-			<!--Create seperation of date and title -->
-			<div class="offset 1 span3">
-				<p class="text-right">{{article.locale_date}}</p>
-			</div>
-			<div class="offset 1 span7">
-				<p class="text-info">
-					<strong>
-						<a href="{{ SITEURL }}/{{ article.url }}"> {{article.title}} - </a> </strong></p>
-				<p class="muted">{{article.summary}}</p>
+			<h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+			<div class="well small">{% include "article_subtitle.html" %}</div>
+			<div class="summary">
+				{{ article.content|truncate(DEFAULT_TRUNCATE, false, '<a href="'+ SITEURL+'/'+article.url+'">...</a>') }}
 			</div>
 		</div>
+		<hr />
 	{% endfor %}
-	</section>
 {% endif %}
 
 {% if articles_page and articles_paginator.num_pages > 1 %}
