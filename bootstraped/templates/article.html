@@ -4,6 +4,12 @@
 {% block content %}
 <section id="content">
 <article>
+
+	<!--Tags as identifiers for page-->
+	{% for tag in article.tags|sort %}
+		<a href="{{SITEURL}}/{{tag.url}}">{{tag}}</a>
+	{% endfor %}
+
 	<header>
 			<h1>
 					<a href="{{ pagename }}"
@@ -16,12 +22,18 @@
 	
 	<div class="entry-content">
 	
+	<!-- Comment out subtitle (date and tag) well
 	<div class="well">
 	{% include 'article_subtitle.html' %}
 	</div>
-	<img class="pull-right img-rounded" src="{{ article.author_gravatar }}?s=200"></img>
+
+	-->
+
 	{{ article.content }}
 	</div><!-- /.entry-content -->
+
+
+	<!--Disqus -->
 	{% if DISQUS_SITENAME %}
 	<div class="comments">
 	<h2>Comments !</h2>
