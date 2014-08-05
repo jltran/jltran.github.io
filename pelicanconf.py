@@ -20,7 +20,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 
 # Bootstraped variable; customize size of char. shown on main page.
 DEFAULT_TRUNCATE = 500
-NON_GENERIC_BOOTSTRAP = "cosmo"
+NON_GENERIC_BOOTSTRAP = "yeti"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
