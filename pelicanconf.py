@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Formatting for dates
-DEFAULT_DATE_FORMAT = ('%a %d %B %Y'
+DEFAULT_DATE_FORMAT = ('%a %d %B %Y')
 
 # Static paths will be copied without parsing their contents
 STATIC_PATHS = ['images', 'extra']
