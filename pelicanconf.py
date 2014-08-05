@@ -28,7 +28,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 #Disqus Comment System
-DISCUS_SITENAME = 'jltran'
+DISQUS_SITENAME = 'jltran'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
