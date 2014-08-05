@@ -19,8 +19,8 @@ ARTICLE_URL = '{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 
 MENUITEMS = (('blog',''),
-			  ('projects','/projects.html'),
-			  ('about','/jason-l-tran.html'))
+			  ('projects','projects.html'),
+			  ('about','author/jason-l-tran.html'))
 
 # Bootstraped variable; customize size of char. shown on main page.
 DEFAULT_TRUNCATE = 500
