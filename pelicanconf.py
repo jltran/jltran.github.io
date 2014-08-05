@@ -12,7 +12,10 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
-THEME = "simple"
+THEME = "bootstraped"
+
+# Bootstraped variable; customize size of char. shown on main page.
+DEFAULT_TRUNCATE = 500
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
