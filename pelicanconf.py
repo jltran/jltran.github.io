@@ -14,6 +14,10 @@ DEFAULT_LANG = u'en'
 
 THEME = "bootstraped"
 
+# URL for articles
+ARTICLE_URL = '{date:%Y}/{slug}'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
+
 # Bootstraped variable; customize size of char. shown on main page.
 DEFAULT_TRUNCATE = 500
 NON_GENERIC_BOOTSTRAP = "cosmo"
