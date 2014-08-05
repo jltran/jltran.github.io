@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Jason L. Tran'
-SITENAME = u'Jason Tran//jason.lt'
+SITENAME = u'//jason.lt//'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,7 +20,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 
 # Bootstraped variable; customize size of char. shown on main page.
 DEFAULT_TRUNCATE = 500
-NON_GENERIC_BOOTSTRAP = "yeti"
+NON_GENERIC_BOOTSTRAP = "simplex"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
