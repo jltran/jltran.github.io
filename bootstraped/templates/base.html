@@ -67,7 +67,7 @@
 			
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul class="nav">
-					<li class="active">
+					<li {% if blog_on %}class="active"{% endif %}>
 						<a href="{{SITEURL}}/"><i class="icon-pencil"></i> blog</a>
 					</li>
 					<li class="divider-vertical"></li>
@@ -80,7 +80,7 @@
 					</li>
 					<li class="divider-vertical"></li>
 					<li>
-						<a href="{{SITEURL}}/author/jason-l-tran.html"><i class="icon-user"></i> about</a>
+						<a href="{{SITEURL}}/pages/about-me.html"><i class="icon-user"></i> about</a>
 					</li>
 				</ul>
 			</div>

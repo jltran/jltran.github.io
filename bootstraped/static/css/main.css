@@ -16,7 +16,7 @@ div.article div.summary,
 div.article div.date,
 div.article div.summary p    { margin: 0; padding: 0; }
 div.article div.detail       { margin-left: 140px; }
-div.article div.date         { float: left; width: 120px; color: #CC0033;
+div.article div.date         { float: left; width: 120px; color: #777777;
                                       text-align: right; font-size: 14px; }
 
 
