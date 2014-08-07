@@ -7,7 +7,7 @@
 
 	<!--Tags as identifiers for page-->
 	{% for tag in article.tags|sort %}
-		<a href="{{SITEURL}}/{{tag.url}}">{{tag}}</a>
+		<h5><a href="{{SITEURL}}/{{tag.url}}">{{tag}}</a></h5>
 	{% endfor %}
 
 	<header>

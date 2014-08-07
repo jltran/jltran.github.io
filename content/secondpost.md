@@ -1,9 +1,9 @@
-Title: Second Post
+Title: Second post: a basic comment on the effect of life on death
 Date: 2014-08-04 23:16
 Tags: webdev
 Category: Archive
 Slug: second-post
-Summary: My second post.
+Summary: Smaller description goes here with information on what goes on in this amazing post.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in neque arcu. Nunc consectetur elit dui, et viverra quam tincidunt et. Suspendisse tortor lacus, dignissim ac ante quis, feugiat vulputate justo. Vivamus in magna mattis, convallis magna et, suscipit nunc. Praesent et elit consequat, lacinia enim non, iaculis ipsum. Sed dapibus imperdiet ipsum ut euismod. Nullam hendrerit nec magna at luctus. Vivamus hendrerit nec sapien eu dapibus. Nullam sollicitudin mi sed mi semper, sed vulputate dolor varius. Etiam dictum gravida erat a pellentesque.
 
