@@ -1,4 +1,39 @@
 
+/*general style*/
+
+/*layout elements*/
+div.body			{clear:both;}
+div.journal			{ width: 740px; margin: 48px auto; padding: 0; }
+
+/*blog overview*/
+div.article                  { margin: 25px 122px 25px 102px; }
+div.article h4,
+div.article div.summary,
+div.article div.summary p    { display: inline; line-height: 25px; }
+div.article h4               { margin: 0; font-size: 17px; font-weight: 400;}
+div.article h4:after         { content: " —"; }
+div.article div.summary,
+div.article div.date,
+div.article div.summary p    { margin: 0; padding: 0; }
+div.article div.detail       { margin-left: 140px; }
+div.article div.date         { float: left; width: 120px; color: #CC0033;
+                                      text-align: right; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+/*bootstrap css*/
+footer {
+	background: inherit;
+}
+
 @media (min-width: 980px) {
 	#content {
 		padding-top: 60px;
@@ -16,16 +51,3 @@
 	color: rgb(85, 85, 85);
 }
 */
-
-
-
-footer {
-	background: inherit;
-}
-
-.article{
-	margin: 25px 122px 25px 102px;
-	display: block;
-
-}
-
