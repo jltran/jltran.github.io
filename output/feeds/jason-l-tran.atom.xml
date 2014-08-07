@@ -7,7 +7,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Framework&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;The main framework of this website is built on Pelican - a static website generator written in python. I've been using python as a scripting language for a few years now and it's nice to do work on something that is relatively familiar. What this means is that there is a level of abstraction between is displayed on the website and the content that I create for the blog. These blog posts are typed in Markdown where I can include the tags and url and the pages are automatically generated. The way that these posts are turned into webpages is also not as abstract as traditional content management systems like Wordpress and Drupal so I can actually fix the problem if one happens.  &lt;/li&gt;
+&lt;li&gt;The main framework of this website is built on Pelican - a static website generator written in python. Basically it is a python application that converts text files into webpages! I've been using python as a scripting language for a few years now and it's nice to do work on something that is relatively familiar. What this means is that there is a level of abstraction between is displayed on the website and the content that I create for the blog. These blog posts are typed in Markdown (a fancy text file format) where I can include the tags, url, etc. I want and the webpages are automatically generated. The way that these posts are turned into webpages is also not as abstract as traditional content management systems like Wordpress and Drupal so I can actually fix the problem if one happens.  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Style&lt;/h3&gt;
 &lt;ul&gt;
