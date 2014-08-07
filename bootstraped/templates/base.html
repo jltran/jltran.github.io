@@ -67,30 +67,21 @@
 			
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul class="nav">
-				{% if DISPLAY_PAGES_ON_MENU %}
-				{% for page in PAGES %}
+					<li class="active">
+						<a href="{{SITEURL}}/"><i class="icon-pencil"></i> blog</a>
+					</li>
+					<li class="divider-vertical"></li>
+					<li {% if archive_on %}class="active"{% endif %}>
+						<a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i> archives</a>
+					</li>
+					<li class="divider-vertical"></li>
 					<li>
-						<a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
+						<a href="{{SITEURL}}/"><i class="icon-beaker"></i> projects</a>
 					</li>
 					<li class="divider-vertical"></li>
-				{% endfor %}
-				{% endif %}
-				{% for cat, null in categories %}
-					<li {% if cat == category %}class="active"{% endif %}>
-						<a href="{{ SITEURL }}/{{ cat.url }}"><i class="icon-folder-open icon-large"></i> {{ cat }}</a>
+					<li>
+						<a href="{{SITEURL}}/author/jason-l-tran.html"><i class="icon-user"></i> about</a>
 					</li>
-					<li class="divider-vertical"></li>
-				{% endfor %}
-				{% for title, link in MENUITEMS %}
-					<li {% if title == active_page %}class="active"{% endif %}>
-						<a href="{{ SITEURL }}/{{ link }}"><i class="icon-user"></i> {{ title }}</a>
-					</li>
-					<li class="divider-vertical"></li>
-				{% endfor %}
-				<li {% if archive_on %}class="active"{% endif %}>
-					<a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i> Archives</a>
-				</li>
-				
 				</ul>
 			</div>
 		</div>
