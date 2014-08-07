@@ -20,13 +20,13 @@ div.article div.date         { float: left; width: 120px; color: #CC0033;
                                       text-align: right; font-size: 14px; }
 
 
-
-
-
-
-
-
-
+/*article tags*/
+div.taghome						{height: 20px;}
+div.taghome h5					{float: left; margin: 0px 10px 0px 0px;}
+div.article-time i.icon-time	{float: left; margin-right: 5px;}
+div.article-time h6				{margin-top: 0px;}
+header h1						{margin-bottom: 0px;}
+div.journal_article				{width:740px; margin: 0 auto;}
 
 
 /*bootstrap css*/
@@ -34,6 +34,7 @@ footer {
 	background: inherit;
 }
 
+/*if width >980 pads top and bottom*/
 @media (min-width: 980px) {
 	#content {
 		padding-top: 60px;

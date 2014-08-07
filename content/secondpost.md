@@ -1,6 +1,6 @@
 Title: Second post: a basic comment on the effect of life on death
 Date: 2014-08-04 23:16
-Tags: webdev
+Tags: webdev, HIV, clinic
 Category: Archive
 Slug: second-post
 Summary: Smaller description goes here with information on what goes on in this amazing post.
