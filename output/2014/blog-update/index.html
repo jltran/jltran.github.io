@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Blog Update</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jason L Tran" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- JS Libraries to Load -->
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="/theme/js/bootstrap.min.js"></script>
+	<script src="/theme/js/progressbars.js"></script>
+	
+	
+	<!-- CSS Styles -->
+	<link rel="stylesheet" href="/theme/css/bootstrap.simplex.min.css" type="text/css" />
+	<link rel="stylesheet" href="/theme/css/bootstrap-responsive.min.css" type="text/css" />
+	<link rel="stylesheet" href="/theme/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="/theme/css/main.css" type="text/css">
+	<link rel="stylesheet" href="/theme/css/pygment.css" type="text/css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/theme/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	
+	<!-- Feed Information / Copied from Simple Theme -->
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container pull-left offset1">
+			<a class="btn btn-navbar clearfix pull-right" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<a class="brand" href="/index.html">//jason.lt// </a>
+			
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav">
+					<li >
+						<a href="/"><i class="icon-pencil"></i> blog</a>
+					</li>
+					<li class="divider-vertical"></li>
+					<li >
+						<a href="/archives.html"><i class="icon-th-list"></i> archives</a>
+					</li>
+					<li class="divider-vertical"></li>
+					<li>
+						<a href="/"><i class="icon-beaker"></i> projects</a>
+					</li>
+					<li class="divider-vertical"></li>
+					<li>
+						<a href="/pages/about-me.html"><i class="icon-user"></i> about</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid" id="content">
+<section id="content">
+
+<div class="journal_article">
+	<article>
+	
+		<div class="taghome">
+				<h5><a href="/tag/webdev.html">webdev</a></h5>
+		</div>
+
+		<header>
+				<h1>
+						<a href=""
+							rel="bookmark"
+							title="Permalink to Blog Update">
+							Blog Update
+						</a>
+				</h1>
+				<div class="article-time">
+					<i class="icon-time"></i>
+					<h6>06 Aug 2014</h6>
+				</div>
+		</header>
+	
+		<div class="entry-content">
+			<p>It's only been a few days since I've started developing this blog, but I've learned so much - there are so many resources out there that it's an extremely different experience from when I started working on websites on geocities so long ago.</p>
+<p>What this blog is built on:  </p>
+<h3>Host</h3>
+<ul>
+<li>This blog is hosted on GitHub Pages - which means that it's totally free as long as it's a static site. I've never used github or git before so it's been a really interesting learning experience. For those who are unfamiliar, git is a version control software that originated from a need for collaborative software development - kind of like google docs but more complicated!  </li>
+</ul>
+<h3>Framework</h3>
+<ul>
+<li>The main framework of this website is built on Pelican - a static website generator written in python. I've been using python as a scripting language for a few years now and it's nice to do work on something that is relatively familiar. What this means is that there is a level of abstraction between is displayed on the website and the content that I create for the blog. These blog posts are typed in Markdown where I can include the tags and url and the pages are automatically generated. The way that these posts are turned into webpages is also not as abstract as traditional content management systems like Wordpress and Drupal so I can actually fix the problem if one happens.  </li>
+</ul>
+<h3>Style</h3>
+<ul>
+<li>I've extended bootstrap styles into the site for a lot of the style like the navigation bar (which is responsive btw) which gives a lot of flexibility in how I design the site without having to write the CSS from scratch.</li>
+</ul>
+<p>It's amazing how much open-source development materials are available. Now, more than ever, Issac Newton's epithet "If I have seen further it is only by standing on the shoulders of giants." holds true weight. I think that health care, especially portions of primary care can stand to learn a lot from the collaborative work of open-source development. Anyway thanks for reading!</p>
+<blockquote>
+<p>"If I have seen further it is only by standing on the shoulders of giants" - Issac Newton</p>
+</blockquote>
+		</div>
+
+
+		<!--Disqus -->
+		<div class="comments">
+		<h2>Comments !</h2>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					var disqus_identifier = "2014/blog-update";
+					(function() {
+									var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = 'http://jltran.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] ||
+							document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+		</div>
+	</article>
+</div>
+</section>
+</div>
+
+<footer class="navbar-fixed-bottom text-center">
+Copyright &copy; 2014 by Jason L Tran
+</footer>
+</body>
+</html>

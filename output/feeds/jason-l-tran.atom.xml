@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>//jason.lt//</title><link href="/" rel="alternate"></link><link href="/feeds/jason-l-tran.atom.xml" rel="self"></link><id>/</id><updated>2014-08-05T03:25:00-04:00</updated><entry><title>Everything good in life comes in groups of threes</title><link href="/2014/third-post" rel="alternate"></link><updated>2014-08-05T03:25:00-04:00</updated><author><name>Jason L Tran</name></author><id>tag:,2014-08-05:2014/third-post</id><summary type="html">&lt;p&gt;Hi everyone, this is my third post.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>//jason.lt//</title><link href="/" rel="alternate"></link><link href="/feeds/jason-l-tran.atom.xml" rel="self"></link><id>/</id><updated>2014-08-06T19:51:00-04:00</updated><entry><title>Blog Update</title><link href="/2014/blog-update" rel="alternate"></link><updated>2014-08-06T19:51:00-04:00</updated><author><name>Jason L. Tran</name></author><id>tag:,2014-08-06:2014/blog-update</id><summary type="html">&lt;p&gt;It's only been a few days since I've started developing this blog, but I've learned so much - there are so many resources out there that it's an extremely different experience from when I started working on websites on geocities so long ago.&lt;/p&gt;
+&lt;p&gt;What this blog is built on:  &lt;/p&gt;
+&lt;h3&gt;Host&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This blog is hosted on GitHub Pages - which means that it's totally free as long as it's a static site. I've never used github or git before so it's been a really interesting learning experience. For those who are unfamiliar, git is a version control software that originated from a need for collaborative software development - kind of like google docs but more complicated!  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Framework&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The main framework of this website is built on Pelican - a static website generator written in python. I've been using python as a scripting language for a few years now and it's nice to do work on something that is relatively familiar. What this means is that there is a level of abstraction between is displayed on the website and the content that I create for the blog. These blog posts are typed in Markdown where I can include the tags and url and the pages are automatically generated. The way that these posts are turned into webpages is also not as abstract as traditional content management systems like Wordpress and Drupal so I can actually fix the problem if one happens.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Style&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I've extended bootstrap styles into the site for a lot of the style like the navigation bar (which is responsive btw) which gives a lot of flexibility in how I design the site without having to write the CSS from scratch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's amazing how much open-source development materials are available. Now, more than ever, Issac Newton's epithet "If I have seen further it is only by standing on the shoulders of giants." holds true weight. I think that health care, especially portions of primary care can stand to learn a lot from the collaborative work of open-source development. Anyway thanks for reading!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"If I have seen further it is only by standing on the shoulders of giants" - Issac Newton&lt;/p&gt;
+&lt;/blockquote&gt;</summary><category term="webdev"></category></entry><entry><title>Everything good in life comes in groups of threes</title><link href="/2014/third-post" rel="alternate"></link><updated>2014-08-05T03:25:00-04:00</updated><author><name>Jason L Tran</name></author><id>tag:,2014-08-05:2014/third-post</id><summary type="html">&lt;p&gt;Hi everyone, this is my third post.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
