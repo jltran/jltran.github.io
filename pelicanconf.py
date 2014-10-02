@@ -33,12 +33,11 @@ DISQUS_SITENAME = 'jltran'
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/jltran'),
-          ('Twitter', 'https://twitter.com/zjodak'),)
+          ('Twitter', 'https://twitter.com/'),)
 
 DEFAULT_PAGINATION = 10
 
